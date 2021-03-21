@@ -2,8 +2,19 @@
 title: "R studio cloud with Gitthub"
 author: "Min"
 date: '2021 3 22 '
-output: html_document
+output: 
+  html_document:
+    theme: flatly
+    toc: true
+    toc_depth: 3
+    toc_float: true
 ---
+
+# R pubs 
+
+  - R pubs 
+  
+    https://rpubs.com/CodeM
 
 # R studio cluod with Gitthub
 
