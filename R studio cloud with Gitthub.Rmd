@@ -1,0 +1,18 @@
+---
+title: "R studio cloud with Gitthub"
+author: "Min"
+date: '2021 3 22 '
+output: html_document
+---
+
+# R studio cluod with Gitthub
+
+  - Youtube reference 
+  
+    https://youtu.be/gcmDfVVZmdA
+  
+  - 달러표시 2개(shift + 4)로 시작하고 달러표시 2개(shift + 4)로 닫으면, R markdown을 작성하는 도중에 실행결과를 확인하면서 작성이 가능함.
+
+
+
+
