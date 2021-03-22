@@ -35,7 +35,6 @@ output:
 ```{r}
 library(rdrop2)
 library(readxl)
-
 ```
 
 drop_get(path = "leadership.xlsx", local_file = "https://www.dropbox.com/s/46sn74ig1tnelkw/leadership.xlsx?dl=0")
