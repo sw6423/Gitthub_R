@@ -18,11 +18,30 @@ output:
 
 # R studio cluod with Gitthub
 
+## Reference 
+
   - Youtube reference 
   
     https://youtu.be/gcmDfVVZmdA
+
+  - safari reference
+  
+    https://bookdown.org/drki_musa/Multivariable_Data_Analysis/introduction-to-r-rstudio-and-rstudio-cloud.html#upload-data-to-rstudio-cloud
   
   - 달러표시 2개(shift + 4)로 시작하고 달러표시 2개(shift + 4)로 닫으면, R markdown을 작성하는 도중에 실행결과를 확인하면서 작성이 가능함.
+
+### How to Data upload 
+
+```{r}
+library(rdrop2)
+library(readxl)
+
+```
+
+drop_get(path = "leadership.xlsx", local_file = "https://www.dropbox.com/s/46sn74ig1tnelkw/leadership.xlsx?dl=0")
+
+
+data <- read_excel(path = URL, sheet = "문항단위_주재원", col_names = TRUE)
 
 
 

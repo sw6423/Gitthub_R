@@ -256,11 +256,23 @@ div.tocify {
 </div>
 <div id="r-studio-cluod-with-gitthub" class="section level1">
 <h1>R studio cluod with Gitthub</h1>
+<div id="reference" class="section level2">
+<h2>Reference</h2>
 <ul>
 <li><p>Youtube reference</p>
 <p><a href="https://youtu.be/gcmDfVVZmdA" class="uri">https://youtu.be/gcmDfVVZmdA</a></p></li>
+<li><p>safari reference</p>
+<p><a href="https://bookdown.org/drki_musa/Multivariable_Data_Analysis/introduction-to-r-rstudio-and-rstudio-cloud.html#upload-data-to-rstudio-cloud" class="uri">https://bookdown.org/drki_musa/Multivariable_Data_Analysis/introduction-to-r-rstudio-and-rstudio-cloud.html#upload-data-to-rstudio-cloud</a></p></li>
 <li><p>달러표시 2개(shift + 4)로 시작하고 달러표시 2개(shift + 4)로 닫으면, R markdown을 작성하는 도중에 실행결과를 확인하면서 작성이 가능함.</p></li>
 </ul>
+<div id="how-to-data-upload" class="section level3">
+<h3>How to Data upload</h3>
+<pre class="r"><code>library(rdrop2)
+library(readxl)</code></pre>
+<p>drop_get(path = “leadership.xlsx”, local_file = “<a href="https://www.dropbox.com/s/46sn74ig1tnelkw/leadership.xlsx?dl=0" class="uri">https://www.dropbox.com/s/46sn74ig1tnelkw/leadership.xlsx?dl=0</a>”)</p>
+<p>data &lt;- read_excel(path = URL, sheet = “문항단위_주재원”, col_names = TRUE)</p>
+</div>
+</div>
 </div>
 
 
